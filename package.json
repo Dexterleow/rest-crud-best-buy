@@ -1,7 +1,7 @@
 {
   "name": "bestbuy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build a website that manages the product inventory for a Best Buy store. The store has a list of products which it stores in a JSON file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,16 @@
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "fs": "0.0.1-security",
-    "method-override": "^2.3.6"
-  }
+    "method-override": "^2.3.6",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dexterleow/rest-crud-best-buy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dexterleow/rest-crud-best-buy/issues"
+  },
+  "homepage": "https://github.com/Dexterleow/rest-crud-best-buy#readme",
+  "devDependencies": {}
 }
